@@ -10,7 +10,7 @@ $conn=mysqli_connect("localhost","root","","blood_donation") or die("Connection 
 $sql= "INSERT INTO donor_details(donor_name,donor_number,donor_mail,donor_age,donor_gender,donor_blood,donor_address) values('{$name}','{$number}','{$email}','{$age}','{$gender}','{$blood_group}','{$address}')";
 $output=mysqli_query($conn,$sql) or die("query unsuccessful.");
 
-header("Location: http://localhost/Blood-Bank-And-Donation-Management-System/");
+header("Location: http://localhost/blood_donate/");
 
 mysqli_close($conn);
  ?>
