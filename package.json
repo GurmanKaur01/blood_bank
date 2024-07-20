@@ -1,0 +1,17 @@
+{
+  "name": "cloth_donation",
+  "version": "1.0.0",
+  "description": "Final Project: Blood Donation",
+  "main": "index.js",
+  "scripts": {
+   "sass-build": "sass --no-source-map scss:css",
+    "sass-watch": "sass --watch --no-source-map scss:css"
+   
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bootstrap": "^5.3.3",
+    "sass": "^1.77.6"
+  }
+}
