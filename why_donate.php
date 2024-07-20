@@ -21,7 +21,7 @@ require_once 'includes/header.php';
         <br> Do you wanna be a hero ?
         </prev>
         <div class="col-md-4">
-                <a class="btn accordion-button" href="donate_blood.php" style="background-color:lightpink;color:#273746 ">Donate Now </a>
+                <a class="btn accordion-button" href="donate.php" style="background-color:lightpink;color:#273746 ">Donate Now </a>
             </div>
     </div>
     <div class="col-lg-6">
